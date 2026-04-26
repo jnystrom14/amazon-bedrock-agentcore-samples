@@ -3,7 +3,7 @@
 
 # Core AgentCore dependencies
 bedrock-agentcore>=0.1.0
-bedrock-agentcore-starter-toolkit>=0.1.0
+bedrock-agentcore-starter-toolkit>=0.3.6
 
 # AWS SDK
 boto3>=1.39.7
@@ -40,7 +40,7 @@ streamlit>=1.47.0
 streamlit-cookies-controller>=0.0.4
 
 # Additional development dependencies
-pytest>=7.0.0
+pytest>=9.0.3
 pytest-cov>=4.0.0
 black>=23.0.0
 flake8>=6.0.0

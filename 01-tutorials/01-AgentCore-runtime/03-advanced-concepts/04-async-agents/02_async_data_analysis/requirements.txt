@@ -1,7 +1,7 @@
-aiohttp>=3.13.3
+aiohttp>=3.13.5
 # Core AgentCore and Strands packages
 bedrock-agentcore==1.1.1
-bedrock-agentcore-starter-toolkit==0.2.5
+bedrock-agentcore-starter-toolkit==0.3.6
 
 # AWS SDK
 boto3==1.42.9
@@ -23,6 +23,6 @@ python-dateutil==2.9.0.post0
 pytz==2025.2
 
 # Core dependencies
-requests==2.32.5
+requests==2.33.0
 strands-agents==1.20.0
 strands-agents-tools==0.2.18

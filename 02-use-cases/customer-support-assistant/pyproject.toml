@@ -5,7 +5,7 @@ description = "Customer support agent implementation using Amazon Bedrock AgentC
 requires-python = ">=3.10"
 dependencies = [
     "bedrock-agentcore>=0.1.0",
-    "bedrock-agentcore-starter-toolkit>=0.1.0",
+    "bedrock-agentcore-starter-toolkit>=0.3.6",
     "boto3>=1.39.7",
     "botocore>=1.39.7",
     "click>=8.2.1",
@@ -18,7 +18,7 @@ dependencies = [
     "pandas>=2.3.1",
     "pydantic>=2.0.0",
     "pyyaml>=6.0.2",
-    "requests>=2.31.0",
+    "requests>=2.33.0",
     "requests-aws4auth>=1.3.1",
     "retrying>=1.4.0",
     "strands-agents>=1.0.0",

@@ -7,7 +7,7 @@ dependencies = [
     "boto3>=1.35.0",
     "pytz>=2024.1",
     "pydantic>=2.5.0",
-    "bedrock-agentcore-starter-toolkit>=0.1.14",
+    "bedrock-agentcore-starter-toolkit>=0.3.6",
 ]
 
 # Note: requirements.txt contains packages for the Docker container
@@ -15,7 +15,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "pytest>=7.0.0",
+    "pytest>=9.0.3",
     "pytest-cov>=4.0.0",
     "ruff>=0.1.0",
     "mypy>=1.0.0",
