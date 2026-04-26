@@ -8,7 +8,7 @@ absolufy-imports==0.3.1
     # via google-adk
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.0
+aiohttp==3.13.4
     # via litellm
 aiosignal==1.4.0
     # via aiohttp
@@ -61,7 +61,7 @@ click==8.3.0
     #   uvicorn
 cloudpickle==3.1.1
     # via google-cloud-aiplatform
-cryptography==46.0.3
+cryptography==46.0.7
     # via
     #   authlib
     #   pyjwt
@@ -81,7 +81,7 @@ frozenlist==1.8.0
     #   aiosignal
 fsspec==2025.9.0
     # via huggingface-hub
-google-adk==1.16.0
+google-adk==1.28.1
     # via host-adk (pyproject.toml)
 google-api-core==2.26.0
     # via
@@ -267,7 +267,7 @@ markupsafe==3.0.3
     # via
     #   jinja2
     #   mako
-mcp==1.23.0
+mcp==1.27.0
     # via google-adk
 multidict==6.7.0
     # via
@@ -344,7 +344,7 @@ proto-plus==1.26.1
     #   google-cloud-spanner
     #   google-cloud-speech
     #   google-cloud-trace
-protobuf==6.33.0
+protobuf==6.33.5
     # via
     #   a2a-sdk
     #   google-api-core
@@ -398,13 +398,13 @@ python-dateutil==2.9.0.post0
     #   botocore
     #   google-adk
     #   google-cloud-bigquery
-python-dotenv==1.1.1
+python-dotenv==1.2.2
     # via
     #   host-adk (pyproject.toml)
     #   google-adk
     #   litellm
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.26
     # via mcp
 pyyaml==6.0.3
     # via
@@ -416,7 +416,7 @@ referencing==0.37.0
     #   jsonschema-specifications
 regex==2025.9.18
     # via tiktoken
-requests==2.32.5
+requests==2.33.0
     # via
     #   google-adk
     #   google-api-core
@@ -454,7 +454,7 @@ sqlparse==0.5.3
     # via google-cloud-spanner
 sse-starlette==3.0.2
     # via mcp
-starlette==0.48.0
+starlette==0.49.1
     # via
     #   bedrock-agentcore
     #   fastapi
@@ -506,7 +506,7 @@ tzlocal==5.3.1
     # via google-adk
 uritemplate==4.2.0
     # via google-api-python-client
-urllib3==2.6.0
+urllib3==2.6.3
     # via
     #   bedrock-agentcore
     #   botocore
