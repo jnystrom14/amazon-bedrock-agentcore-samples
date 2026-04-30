@@ -21,7 +21,7 @@ bedrock-agentcore==0.1.7
     # via
     #   web-search-openai-agents (pyproject.toml)
     #   bedrock-agentcore-starter-toolkit
-bedrock-agentcore-starter-toolkit==0.1.24
+bedrock-agentcore-starter-toolkit==0.3.6
     # via web-search-openai-agents (pyproject.toml)
 boto3==1.40.50
     # via
@@ -52,7 +52,7 @@ click==8.3.0
     #   uvicorn
 colorama==0.4.6
     # via griffe
-cryptography==46.0.5
+cryptography==46.0.7
     # via pyjwt
 distro==1.9.0
     # via openai
@@ -115,7 +115,7 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
-mcp==1.23.0
+mcp==1.27.0
     # via openai-agents
 mdurl==0.1.2
     # via markdown-it-py
@@ -165,7 +165,7 @@ prompt-toolkit==3.0.52
     #   questionary
 proto-plus==1.26.1
     # via google-api-core
-protobuf==6.32.1
+protobuf==6.33.5
     # via
     #   a2a-sdk
     #   google-api-core
@@ -202,9 +202,9 @@ pyjwt==2.11.0
     # via mcp
 python-dateutil==2.9.0.post0
     # via botocore
-python-dotenv==1.1.1
+python-dotenv==1.2.2
     # via pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.26
     # via mcp
 pyyaml==6.0.3
     # via
@@ -219,7 +219,7 @@ referencing==0.36.2
     #   jsonschema-specifications
 regex==2025.9.18
     # via tiktoken
-requests==2.32.5
+requests==2.33.0
     # via
     #   bedrock-agentcore-starter-toolkit
     #   google-api-core
@@ -299,7 +299,7 @@ typing-inspection==0.4.2
     #   mcp
     #   pydantic
     #   pydantic-settings
-urllib3==2.6.0
+urllib3==2.6.3
     # via
     #   bedrock-agentcore
     #   bedrock-agentcore-starter-toolkit
