@@ -20,6 +20,6 @@
     "@aws-sdk/signature-v4": "^3.0.0",
     "@aws-sdk/credential-provider-node": "^3.0.0",
     "@aws-crypto/sha256-js": "^4.0.0",
-    "uuid": "^9.0.1"
+    "uuid": "^14.0.0"
   }
 }
