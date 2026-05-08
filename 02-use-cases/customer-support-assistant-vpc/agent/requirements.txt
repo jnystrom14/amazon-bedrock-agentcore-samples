@@ -2,7 +2,7 @@
 #    uv pip compile pyproject.toml -o requirements.txt
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.15
+aiohttp==3.13.4
     # via strands-agents-tools
 aiosignal==1.4.0
     # via aiohttp
@@ -126,7 +126,7 @@ opentelemetry-semantic-conventions==0.58b0
     #   opentelemetry-sdk
 packaging==25.0
     # via opentelemetry-instrumentation
-pillow==11.3.0
+pillow==12.2.0
     # via strands-agents-tools
 prompt-toolkit==3.0.52
     # via strands-agents-tools
@@ -155,11 +155,11 @@ pyjwt==2.10.1
     # via strands-agents-tools
 python-dateutil==2.9.0.post0
     # via botocore
-python-dotenv==1.1.1
+python-dotenv==1.2.2
     # via
     #   mcp
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.27
     # via mcp
 readabilipy==0.3.0
     # via strands-agents-tools
@@ -169,7 +169,7 @@ referencing==0.36.2
     #   jsonschema-specifications
 regex==2025.9.18
     # via readabilipy
-requests==2.32.5
+requests==2.33.0
     # via
     #   aws-requests-auth
     #   strands-agents-tools
@@ -233,7 +233,7 @@ typing-inspection==0.4.1
     # via
     #   pydantic
     #   pydantic-settings
-urllib3==2.6.0
+urllib3==2.6.3
     # via
     #   bedrock-agentcore
     #   botocore
