@@ -30,7 +30,7 @@ attrs==25.4.0
     #   aiohttp
     #   jsonschema
     #   referencing
-authlib==1.6.5
+authlib==1.6.12
     # via google-adk
 bedrock-agentcore==1.0.0
     # via host-adk (pyproject.toml)
@@ -404,7 +404,7 @@ python-dotenv==1.1.1
     #   google-adk
     #   litellm
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.27
     # via mcp
 pyyaml==6.0.3
     # via
@@ -506,7 +506,7 @@ tzlocal==5.3.1
     # via google-adk
 uritemplate==4.2.0
     # via google-api-python-client
-urllib3==2.6.0
+urllib3==2.7.0
     # via
     #   bedrock-agentcore
     #   botocore

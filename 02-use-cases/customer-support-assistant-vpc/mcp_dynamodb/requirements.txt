@@ -13,7 +13,7 @@ attrs==25.3.0
     #   cyclopts
     #   jsonschema
     #   referencing
-authlib==1.6.5
+authlib==1.6.12
     # via fastmcp
 bedrock-agentcore==0.1.6
     # via mcp-dynamodb (pyproject.toml)
@@ -149,7 +149,7 @@ python-dotenv==1.1.1
     # via
     #   fastmcp
     #   pydantic-settings
-python-multipart==0.0.20
+python-multipart==0.0.27
     # via mcp
 pyyaml==6.0.3
     # via jsonschema-path
@@ -201,7 +201,7 @@ typing-inspection==0.4.2
     # via
     #   pydantic
     #   pydantic-settings
-urllib3==2.6.0
+urllib3==2.7.0
     # via
     #   bedrock-agentcore
     #   botocore
